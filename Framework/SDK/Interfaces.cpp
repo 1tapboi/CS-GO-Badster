@@ -1,0 +1,30 @@
+#include "../SDK.h"
+ 
+IBaseClientDll*			I::Client;
+IClientModeShared*		I::ClientMode;
+IClientEntityList*		I::ClientEntList;
+ICVar*					I::Cvar;
+IInputSystem*			I::InputSystem;
+IEngineClient*			I::Engine;
+IEngineTrace*			I::EngineTrace;
+IGlobalVarsBase*		I::Globals;
+ISurface*				I::Surface;
+IVPanel*				I::VPanel;
+IVModelRender*			I::ModelRender;
+IVModelInfo*			I::ModelInfo;
+IMaterialSystem*		I::MaterialSystem;
+IMaterial*				I::Material;
+IVRenderView*			I::RenderView;
+IGameMovement*			I::GameMovement;
+IMoveHelper*			I::MoveHelper;
+IPrediction*			I::Prediction;
+IPhysicsSurfaceProps*	I::Physprops;
+IGameEventManager2*		I::GameEvent;
+IVDebugOverlay*			I::DebugOverlay;
+IStudioRender*			I::StudioRender;
+CEffects*				I::Ceffect;
+
+IMaterial* visible_tex;
+IMaterial* hidden_tex;
+IMaterial* visible_flat;
+IMaterial* hidden_flat;
